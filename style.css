@@ -1,215 +1,307 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Poet'Switch.com</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1"> 
-	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+.header-top {
+    background-color: #eff6f4;
+    height: 330px;
+    width: 100%;
+}
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+.logo{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 40px;
+    color: #8155fb;
+    padding-right: 10px;
+}
 
-<script src="https://kit.fontawesome.com/541ec5dba1.js" crossorigin="anonymous"></script>
+.nav-brand{
+    font-size: 20px !important;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
+.upper-button{
+    color: #2ce080 !important;
+    padding: 10px;
+    border: 2px solid #2ce080 !important;
+    border-radius: 10px !important;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none !important;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+.headerset{
+    color: #8155fb;
+    font-family: 'DM Mono', monospace;
+}
 
-<link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
-</head>
-<body>
-	<header class="header-top">
-		<nav class="navbar navbar-light">
-			<a class="nav-brand"><span class="logo">P</span>Poet'Switch</a>
-			<a type="button" class="upper-button" href="Poems' Gallery/index.html">Explore Poems</a>
-		</nav>
-		
-		<div class="headerset container text-center">
-			<h1 class="heading1">Get Best Hindi And English Poems And Quotes</h1>
-			<h2 class="heading2">and Publish Your Own Too</h2>
-		</div>
-	</header>
-	<section class="container-fluid text-center main">
-		<img src="back.png" alt="">
-	</section>
+.heading1{
+    font-size: 4.5rem !important;
+}
 
-	<div class="container-fluid text-center">
-		<div class="jumbotron jumbotron-fluid bg-dark text-white">
-  			<div class="container">
-    			<div class="row">
-    				<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    					<p class="paras marg-top">A Large Collection</p>
-    					<i class="fas fa-book fa-2x"></i>
-    				</div>
-    				<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    					<p class="paras marg-top">Request A Poem</p>
-    					<i class="fas fa-envelope fa-2x"></i>
-    				</div>
-    				<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
-    					<p class="paras marg-top">Publish Your Own Poem</p>
-    					<i class="fas fa-mobile-alt fa-2x"></i>
-    				</div>
-    			</div>
-  			</div>
-		</div>
-	</div>
+.heading2{
+    font-size: 3rem !important;
+}
 
-	<section class="container main-para text-center">
-		<p class="para">Poet'Switch Brings You The Best Poems And Quotes On a Large Variety Of Topics And Provides You The Chance To Become a Writer.</p>
-		<p class="muted paras">Explore From A Large Gallery Of Poems</p>
-		<a href="Poems' Gallery/index.html" class="btn btn-lg">Visit Poems' Gallery</a>
-	</section>
+a{
+    text-decoration: none !important;
+}
 
-	<section class="container-fluid">
-		<div class="jumbotron jumbotron-fluid text-white jumbo">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
-					<h1 class="jumbo-heading">Explore From The Best Of Our Collection</h1>
-					<hr class="border-bot" width="100px" align="left">
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
-					<p align="left" style="font-weight: light;">We don't just copy and paste poems and quotes from other resources, we make them.</p>
-					<a href="Poems' Gallery/index.html" class="btn btn-lg">Explore Now</a>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
+.main{
+    height: 360px;
+    background-color: #eff6f4;
+}
 
-	<section class="container ourservices">
-		<div class="text-center services-heading">
-			<h1 style="font-weight: bold;">How We Serve You ?</h1>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto">
-				<div class="card mar-top">
-					<div class="card-body">
-						<h2 class="card-title">A Large Collection Of Poems</h2>
-						<h4 class="card-subtitle text-muted">To Choose From</h4>
-						<p class="card-text">We Don't Just Copy And Paste Poems From Other Resources, We Make Them. You Find The Poems And Quotes Which Are Not Available on Other Websites.</p>
-						<a href="Poems' Gallery/index.html" class="card-link">I Want To Explore</a>
-					</div>
-				</div>
-			</div>
+.main img{
+    height: 350px;
+    max-width: 100%;
+    min-width: 60%;
+}
 
-			<div class="col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto">
-				<div class="card mar-top">
-					<div class="card-body">
-						<h2 class="card-title">Request For A Poem</h2>
-						<h4 class="card-subtitle">By Sending Us An Email</h4>
-						<p class="card-text">If you don't get the poem or quote you are looking for, just send an email with the title of the poem you want, and get your poem delivered to your inbox within 3 hours.</p>
-						<a href="Publish Your Poem/index.html" class="card-link">I Want To Request</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-10 col-sm-10 col-10 d-block m-auto">
-				<div class="card mar-top">
-					<div class="card-body">
-						<h2 class="card-title">Publish Your Own Poems</h2>
-						<h4 class="card-subtitle">And Quotes in Hindi And English</h4>
-						<p class="card-text">If you want to publish your own poem or quote with your name on our website, just send an email with your poem or contact us on whatsapp, we will publish it at in just 10 minutes and the link of your poem will be delivered in your inbox so that you can share it with your friends.</p>
-						<a href="Publish Your Poem/index.html" class="card-link">I Want To Publish
-					</div>
-				</div></a>
-			</div>
-		</div>
-	</section>
-
-	<section class="container-fluid">
-		<div class="jumbotron jumbotron-fluid">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
-					<h1 class="jumbo-heading">Publish Your Own Poems</h1>
-					<hr class="border-bot" width="100px" align="left">
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto">
-					<p class="purple-color" align="left" style="font-weight: light;">Do You Have Some Writing Skills ? Don't Waste Them.</p>
-					<p align="left" style="font-weight: light;">Start Small By Publishing Your Writings On This Website. We Publish It With Your Name And Then You Can Share It With The World.</p>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="container top-packs">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-				<a href="Poems' Gallery/index.html"><div class="card mar-top">
-					<img src="images/pack-01.jpg" alt="" class="card-img">
-					<h1 class="card-title">Poems' Collection</h1>
-					<a href="Poems' Gallery/index.html" class="card-link purple-color">Visit Now</a>
-				</div></a>
-			</div>
-
-			<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-				<div class="card mar-top">
-					<img src="images/pack-02.webp" alt="" class="card-img">
-					<h1 class="card-title">Shayari</h1>
-					<a href="Poems' Gallery/index.html" class="card-link purple-color">Visit Now</a>
-				</div>
-			</div>
-
-			<div class="col-lg-4 col-md-4 col-sm-10 col-10 d-block m-auto">
-				<div class="card mar-top">
-					<img src="images/pack-03.webp" alt="" class="card-img">
-					<h1 class="card-title">Debaters' Pack</h1>
-					<a href="" class="card-link purple-color">Visit Now</a>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="container-fluid">
-		<div class="jumbotron jumbotron-fluid">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto back-img">
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto text-center">
-					<h1 class="">Request For A Poem</h1>
-				<p class="purple-color">And Get It Ready In 3 Hours.</p>
-				<a href="Publish Your Poem/index.html" class="btn btn-lg">Try Now This Feature</a>
-				<p class="muted" style="padding-top: 15px;">Note: This Feature Is Available For Hindi Poems Only</p>
-				</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="container bg-light future-features">
-		<h1>Future Features: </h1>
-		<hr class="border-bot" width="100px" align="left">
-		<p class="paras">We Are Thinking Of Adding A Top Writers' Section...</p>
-		<p class="paras">Is This A Good Or A Bad Idea ?</p>
-		<p class="purple-color" style="font-size: 20px;">Tell Us By Contacting Us</p>
-		<a class="btn btn-lg" href="mailto:iranramrakhyani@gmail.com">Contact Us</a>
-	</section>
-
-	<section class="container text-center">
-		<footer class="footer">
-			<h5>&copy 2020 Poet'Switch.com, All Rights Reserved</h5>
-		</footer>
-	</section>
-</body>
-</html>
+.main-para{
+    width: 100%;
+    height: 360px;
+    padding: 60px 0 60px;
+}
 
 
-<!-- <section class="container-fluid request">
-		<div class="jumbotron jumbotron-fluid special-jumbo">
-			<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto  back-img">
-			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 col-10 d-block m-auto text-center">
-				<h1 class="">Request For A Poem</h1>
-				<p class="purple-color">And Get It Ready In 3 Hours.</p>
-				<a href="" class="btn btn-lg">Try Now This Feature</a>
-				<p class="muted" style="padding-top: 15px;">Note: This Feature Is Available For Hindi Poems Only</p>
-			</div>
-		</div>
-	</section> -->
+.para{
+    font-size: 30px;
+    border-left: 2px solid #8155fb;
+}
+
+.paras{
+    font-size: 22px !important;
+    font-weight: bold !important;
+    /* padding-top: 10px; */
+}
+
+.btn-lg{
+    background-color: #2ce080 !important;
+    color: white !important;
+    font-weight: bold !important;
+    border-radius: 20px !important;
+    margin: 15px;
+}
+
+.btn-lg:hover{
+    background-color: white !important;
+    color: #2ce080 !important;
+    border: 3px solid #2ce080;
+}
+
+.jumbo{
+    background-color: #8155fb !important;
+}
+
+.jumbo-heading{
+    font-size: 35px !important;
+    font-weight: bolder !important;
+}
+
+.border-bot{
+    border-bottom: 5px solid #2ce080 !important;
+}
+
+.ourservices{
+    width: 100%;
+    padding:20px 0 40px;
+    height: 600px;
+}
+
+.card{
+    padding: 20px !important;
+    border-radius: 20px !important;
+}
+
+.card-title{
+    padding: 10px !important;
+}
+
+.card-subtitle{
+    padding: 10px !important;
+}
+
+.card-text{
+    padding: 10px !important;
+}
+
+.card-link{
+    padding: 10px !important;
+    color: #8155fb !important;
+}
+
+.services-heading{
+    margin-bottom: 30px;
+}
+
+.mar-top{
+    margin-top: 30px !important;
+}
+
+.card:hover{
+    border-color: #8155fb;
+}
+
+.purple-color{
+    color: #8155fb !important;
+    font-weight: bold !important;
+}
+
+.categories{
+    width: 100%;
+    height: 240px;
+    padding: 10px 0 40px;
+    background-color: #eff6f4;
+}
+
+.top-packs{
+    height: 500px;
+    width: 100%;
+    padding: 40px 0 40px;
+}
+
+.request{
+    width: 100%;
+    height: 600px;
+    padding: 30px 0 40px;
+}
+
+.special-jumbo{
+    height: 500px;
+}
+
+.back-img{
+    background-image: url('images/pack-04.jpg'); 
+    background-size: 100% 100%;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.future-features{
+    width: 100%;
+    padding: 30px 0 40px;
+    height: 330px;
+    margin-top: 20px !important;
+}
+
+
+.footer{
+    height: 50px;
+    margin-top: 40px;
+}
+
+.footer h6{
+    line-height: 50px;
+}
+
+/* ///////////////////////////For Publish Poem Page//////////////////////// */
+
+.card-tex{
+    font-size: 18px !important;
+    padding: 10px !important;
+}
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+.ourservices{
+    width: 100%;
+    padding:20px 0 40px;
+    height: 1300px;
+}
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+.ourservices{
+    width: 100%;
+    padding:20px 0 40px;
+    height: 1300px;
+}
+
+.top-packs{
+    height: 1400px;
+    width: 100%;
+    padding: 40px 0 40px;
+}
+}
+
+@media(min-width: 460px) and (max-width: 574px){
+.heading1{
+    font-size: 3rem !important;
+}
+
+.heading2{
+    font-size: 2rem !important;
+}
+
+.marg-top{
+    padding-top: 6px;
+}
+
+.main-para{
+    width: 100%;
+    height: 530px;
+    padding: 60px 0 60px;
+}
+
+.ourservices{
+    width: 100%;
+    padding:20px 0 40px;
+    height: 1400px;
+}
+
+.top-packs{
+    height: 1300px;
+    width: 100%;
+    padding: 40px 0 40px;
+}
+
+
+.future-features{
+    width: 100%;
+    padding: 30px 0 40px;
+    height: 400px;
+}
+
+}
+
+@media(max-width: 460px){
+.heading1{
+    font-size: 2.5rem !important;
+}
+
+.heading2{
+    font-size: 2rem !important;
+}
+
+.marg-top{
+    padding-top: 6px;
+}
+
+.main-para{
+    width: 100%;
+    height: 540px;
+    padding: 60px 0 60px;
+}
+
+.ourservices{
+    width: 100%;
+    padding:20px 0 40px;
+    height: 1700px;
+}
+
+.top-packs{
+    height: 1300px;
+    width: 100%;
+    padding: 40px 0 40px;
+}
+
+.future-features{
+    width: 100%;
+    padding: 30px 0 40px;
+    height: 400px;
+}
+}
